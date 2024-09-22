@@ -1,0 +1,197 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CFDBD5;
+}
+
+header {
+    margin: 15px 0;
+    gap: 40px;
+}
+
+header, header div {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 200px;
+    height: 300px;
+    border-radius: 70px;
+}
+header div, #redes {
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(194, 155, 47);
+}
+
+nav, ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li:hover {
+    background-color: #242424;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    gap: 20px;
+}
+
+li {
+    width: 100%;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+} 
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: #fff;
+}
+
+a:hover {
+    color: #CFDBD5;
+}
+
+#conocimientos {
+    justify-content: space-around;
+}
+
+.habilidades {
+    display: flex;
+    width: 48%;
+}
+
+.img-skills {
+    display: flex;
+}
+.habilidades img {
+    height: 80px;
+    padding-left: 5px;
+}
+
+.cursos {
+    padding-left: 20px;
+}
+
+.cursos ul, .habilidades{
+    display: flex;
+    flex-direction: column;
+}
+
+.cursos ul li {
+    text-align: start;
+}
+
+.proyectos {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.proyecto {
+    max-width: 300px;
+    background-color: #242424;
+    border-radius: 30px;
+    color: #fff;
+    padding: 20px;
+    gap: 10px;
+}
+
+.proyecto h3{
+    text-align: center;
+}
+
+.proyecto img {
+    width: 300px;
+    height: 200px;
+}
+
+.proyecto button {
+    background-color: #CFDBD5;
+    padding: 5px;
+}
+
+.proyecto button a {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #242424;
+}
+
+#proyectos, .proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+#conocimientos, #redes {
+    background-color: rgb(194, 155, 47);
+    color: #fff;
+    height: 200px;
+}
+
+#informacion, #conocimientos, #redes, #proyectos, #contacto {
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    height: 400px;
+    justify-content: center;
+}
+
+.contacto {
+    display: flex;
+}
+
+.contacto img {
+    height: 300px;
+    margin: 0 20px;
+    margin-top: 25px;
+}
+
+#contacto form {
+    width: 40%;
+}
+
+#contacto form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+#contacto form div input {
+    padding: 5px;
+}
+
+#contacto form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #242424;
+    color: #CFDBD5;
+    border: none;
+    border-radius: 5px;
+}
+
+#contacto form button:hover {
+    cursor: pointer;
+    background-color: #616161;
+    color: #fff;
+}

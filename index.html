@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/yo.jfif" alt="Yo">
+        <div>
+            <h2>Alexander Carvajal</h2>
+            <p>Estudiante</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#informacion">Informaciom</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#redes">Redes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="informacion">
+        <p>Soy Alex, un estudiante de la tecnicatura en programacion desde el año 2022. 
+        <br><br>
+        Trabajo como Data Entry desde el mismo año gracias a una pasantia de la facultad y estoy terminando la carrera a mi ritmo. Esto para poder equilibrarla con mi estilo de vida en el que trato de tener siempre presentes a mi familia, amigos y pasiones como lo son el basquet y el deporte. He realizado varios cursos de programacion por mi cuenta antes de iniciar la facultad y durante el trascurso de esta. 
+        <br><br>Soy una persona que siempre esta motivada para seguir aprendiendo y trato de tomar todas las experiencias como enseñanzas.</p>
+    </section>
+    <section id="conocimientos">
+        <article class="habilidades">
+            <h3>Habilidades</h3>
+            <div class="img-skills">
+                <img src="img/cmaslogo.png" alt="">
+                <img src="img/csharp-logo.png" alt="">
+                <img src="img/sql-logo.png" alt="">
+                <img src="img/ghub-logo.png" alt="">
+            </div>
+            <div class="img-skills">
+                <img src="img/html-logo.png" alt="">
+                <img src="img/css-logo.png" alt="">
+                <img src="img/js-logo.png" alt="">
+                <img src="img/figma-logo.png" alt="">
+            </div>
+        </article>
+        <articles class="cursos">
+            <h3>Cursos</h3>
+            <ul>
+                <li>Codo A Codo - Java FullStack</li>
+                <li>Argentina Programa - Testing</li>
+                <li>Educacion IT - Testing Manual</li>
+                <li>Educacion IT - Javascript </li>
+            </ul>
+        </articles>
+    </section>
+    <section id="proyectos">
+        <h3>Proyectos</h3>
+        <article class="proyectos">
+            <div class="proyecto">
+                <h3>Cilsa Sports</h3>
+                <img src="./img/proyectos/CilsaSports.png" alt="">
+                <p>Sitio web para una tienda de ropa y accesorios deportivos</p>
+                <button>
+                    <a href="https://mateocunsolo.github.io/tienda_online_cilsa_bc/" target="_blank">Visitar</a>
+                </button>
+            </div>
+            <div class="proyecto">
+                <h3>NewCastle</h3>
+                <img src="./img/proyectos/NewCastle.png" alt="">
+                <p>Sitio en linea que funcionaba como temporizador para promocionar el torneo de mi comunidad de basquet</p>
+                <button>
+                    <a href="https://alekeyy.github.io/NewCastle-Basket/" target="_blank">Visitar</a>
+                </button>
+            </div>
+            <div class="proyecto">
+                <h3>Tea Hour</h3>
+                <img src="./img/proyectos/TeaHour.png" alt="">
+                <p>Sitio realizado para el curso de Codo A Codo Full Stack Java</p>
+                <button>
+                    <a href="https://alekeyy.github.io/PROYECTO-CAC/" target="_blank">Visitar</a>
+                </button>
+            </div>
+        </article>
+    </section>
+    <section id="redes">
+        Contactame por
+        <div class="contacto">
+            <a href="https://github.com/alekeyy" target="_blank">
+                <img src="img/ghub-logo.png" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/alexcarvajalmatias/" target="_blank">
+                <img src="img/ldin-logo.png" alt="logo linkedin">
+            </a>
+        </div>
+    </section>
+    <section id="contacto">
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" minlength="4" placeholder="Fulanito...">
+            </div>
+            <div>
+                <label for="numero">Numero</label>
+                <input type="numero" name="numero" id="numero" required placeholder="11-xxxx-xxxx">
+            </div>
+            <div>
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" required minlength="8" placeholder="ejemplo@mail.com">
+            </div>
+            <div>
+                <label for="motivo">Motivo de contacto</label>
+                <textarea name="motivo" name="motivo" id="motivo"required rows="10" cols="40" placeholder="Decidi contactarte por que..."></textarea>
+            </div>
+            <button type="submit" id="btn-submit">Enviar</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
